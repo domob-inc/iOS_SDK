@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'AdSupport','SystemConfiguration','StoreKit'
   spec.requires_arc = false
   spec.libraries = 'z','sqlite3'
-  spec.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ProjectFolder/LibraryFolder' }
   spec.preserve_paths = 'DomobVideoSDK/libDomobVideoSDK.a'
   spec.library = 'DomobVideoSDK'
 end
